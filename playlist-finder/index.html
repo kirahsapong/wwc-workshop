@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WWC Workshop - Part 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="favicon.svg" />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="header">WWC Workshop - Fan Finder</h1>
+    </header>
+    <main>
+      <div>
+        <div>
+          <label for="fanDid">Fan DID</label>
+          <input id="fanDid" />
+          <div>
+            <span id="fanDidError"></span>
+          </div>
+        </div>
+        <button id="getFanPlaylistButton" disabled>Get</button>
+      </div>
+      <div>
+        <ul id="trackList"></ul>
+      </div>
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
