@@ -53,7 +53,30 @@ p {
   margin-block: 1rem;
 }
 
-img {
+img#albumCover {
   height: 150px;
   width: 150px;
+}
+
+body > header,
+body > main {
+  max-width: 580px;
+  margin: auto;
+}
+
+main > .mainHeader {
+  display: flex;
+}
+
+label {
+  display: block;
+}
+
+ul#trackList {
+  padding-inline: 0;
+}
+
+ul#trackList > li {
+  display: flex;
+  justify-content: space-between;
 }
