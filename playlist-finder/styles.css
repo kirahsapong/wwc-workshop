@@ -39,6 +39,11 @@ button {
   cursor: pointer;
 }
 
+button[disabled] {
+  cursor: auto;
+  opacity: 0.6;
+}
+
 p,
 h1,
 h2,
@@ -53,6 +58,16 @@ p {
   margin-block: 1rem;
 }
 
+body {
+  background: black;
+  color: white;
+}
+
+button,
+input {
+  color: initial;
+}
+
 body > #loading {
   width: 100dvw;
   height: 100dvh;
@@ -62,7 +77,7 @@ body > #loading {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: white;
+  background: black;
 }
 
 body > header,
@@ -98,6 +113,6 @@ ul#trackList > li > div > img {
   width: 48px;
 }
 
-ul#trackList > li > p {
+ul#trackList > li p {
   margin-block: 0;
 }
