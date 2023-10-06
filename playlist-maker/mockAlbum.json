@@ -1,0 +1,153 @@
+{
+  "resource": {
+    "id": "59727856",
+    "barcodeId": "886445885439",
+    "title": "LEMONADE",
+    "artists": [
+      {
+        "id": "1566",
+        "name": "Beyoncé",
+        "picture": [
+          {
+            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/1024x256.jpg",
+            "width": 1024,
+            "height": 256
+          },
+          {
+            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/1080x720.jpg",
+            "width": 1080,
+            "height": 720
+          },
+          {
+            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/160x107.jpg",
+            "width": 160,
+            "height": 107
+          },
+          {
+            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/160x160.jpg",
+            "width": 160,
+            "height": 160
+          },
+          {
+            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/320x214.jpg",
+            "width": 320,
+            "height": 214
+          },
+          {
+            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/320x320.jpg",
+            "width": 320,
+            "height": 320
+          },
+          {
+            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/480x480.jpg",
+            "width": 480,
+            "height": 480
+          },
+          {
+            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/640x428.jpg",
+            "width": 640,
+            "height": 428
+          },
+          {
+            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/750x500.jpg",
+            "width": 750,
+            "height": 500
+          },
+          {
+            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/750x750.jpg",
+            "width": 750,
+            "height": 750
+          }
+        ],
+        "main": true
+      }
+    ],
+    "duration": 2749,
+    "releaseDate": "2016-04-23",
+    "imageCover": [
+      {
+        "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1080x1080.jpg",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1280x1280.jpg",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/160x160.jpg",
+        "width": 160,
+        "height": 160
+      },
+      {
+        "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/320x320.jpg",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/640x640.jpg",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/750x750.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/80x80.jpg",
+        "width": 80,
+        "height": 80
+      }
+    ],
+    "videoCover": [
+      {
+        "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1080x1080.mp4",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1280x1280.mp4",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/160x160.mp4",
+        "width": 160,
+        "height": 160
+      },
+      {
+        "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/320x320.mp4",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/640x640.mp4",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/750x750.mp4",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/80x80.mp4",
+        "width": 80,
+        "height": 80
+      }
+    ],
+    "numberOfVolumes": 1,
+    "numberOfTracks": 12,
+    "numberOfVideos": 0,
+    "type": "ALBUM",
+    "copyright": "(C) Parkwood Entertainment",
+    "mediaMetadata": {
+      "tags": ["LOSSLESS", "MQA"]
+    },
+    "properties": {
+      "content": ["explicit"]
+    }
+  }
+}
