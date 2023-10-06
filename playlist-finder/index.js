@@ -2,9 +2,6 @@ import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.8.1/dist/browser.
 
 const { web5, did } = await Web5.connect();
 
-const playlistProtocolRes = await fetch("./playlistProtocol.json");
-const playlistProtocol = await playlistProtocolRes.json();
-
 const fanDid = document.querySelector("#fanDid");
 const fanDidError = document.querySelector("#fanDidError");
 const getFanPlaylistButton = document.querySelector("#getFanPlaylistButton");
@@ -28,13 +25,15 @@ fanDid.onkeyup = (e) => {
   }
 };
 getFanPlaylistButton.onclick = async () => {
+  fanDidError.textContent = "";
+  trackList.replaceChildren([]);
   if (fanDid.value) {
     try {
       const { records: fanPlaylistRecords } = await web5.dwn.records.query({
         from: fanDid.value,
         message: {
           filter: {
-            protocol: playlistProtocol.protocol,
+            protocol: "https://workshop.com/protocol",
             protocolPath: "playlist",
           },
         },
@@ -44,12 +43,16 @@ getFanPlaylistButton.onclick = async () => {
           from: fanDid.value,
           message: {
             filter: {
-              protocol: playlistProtocol.protocol,
+              protocol: "https://workshop.com/protocol",
               protocolPath: "playlist/track",
               contextId: fanPlaylistRecords[0].contextId,
             },
           },
         });
+        if (!fanTracksRecords.length) {
+          fanDidError.textContent =
+            "This user hasn't added any tracks to their playlist. Try a different user.";
+        }
         for (const fanTrackRecord of fanTracksRecords) {
           const track = await fanTrackRecord.data.json();
           const listItem = document.createElement("li");

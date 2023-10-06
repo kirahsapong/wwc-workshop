@@ -13,7 +13,7 @@ const { protocols } = await web5.dwn.protocols.query({
   },
 });
 
-if (!protocols || protocols.length === 0) {
+if (!protocols || !protocols.length) {
   const { protocol } = await web5.dwn.protocols.configure({
     message: {
       definition: playlistProtocol,
@@ -31,7 +31,7 @@ const { records: playlistRecords } = await web5.dwn.records.query({
     },
   },
 });
-if (!playlistRecords || playlistRecords.length === 0) {
+if (!playlistRecords || !playlistRecords.length) {
   ({ record: playlistRecord } = await web5.dwn.records.write({
     data: {},
     message: {
