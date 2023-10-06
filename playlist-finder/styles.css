@@ -53,6 +53,18 @@ p {
   margin-block: 1rem;
 }
 
+body > #loading {
+  width: 100dvw;
+  height: 100dvh;
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: white;
+}
+
 body > header,
 body > main {
   max-width: 580px;

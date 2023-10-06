@@ -2,6 +2,11 @@ import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.8.1/dist/browser.
 
 const { web5, did } = await Web5.connect();
 
+if (web5) {
+  const loading = document.querySelector("#loading");
+  document.body.removeChild(loading);
+}
+
 const fanDid = document.querySelector("#fanDid");
 const fanDidError = document.querySelector("#fanDidError");
 const getFanPlaylistButton = document.querySelector("#getFanPlaylistButton");

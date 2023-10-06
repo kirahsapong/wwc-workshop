@@ -53,9 +53,16 @@ p {
   margin-block: 1rem;
 }
 
-img#albumCover {
-  height: 150px;
-  width: 150px;
+body > #loading {
+  width: 100dvw;
+  height: 100dvh;
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: white;
 }
 
 body > header,
@@ -64,12 +71,13 @@ body > main {
   margin: auto;
 }
 
-main > .mainHeader {
-  display: flex;
+img#albumCover {
+  height: 150px;
+  width: 150px;
 }
 
-label {
-  display: block;
+main > .mainHeader {
+  display: flex;
 }
 
 ul#trackList {
