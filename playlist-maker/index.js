@@ -24,7 +24,7 @@ if (!protocols || !protocols.length) {
       definition: playlistProtocol,
     },
   });
-  protocol.send(did);
+  await protocol.send(did);
 }
 
 let playlistRecord;
@@ -46,7 +46,7 @@ if (!playlistRecords || !playlistRecords.length) {
       published: true,
     },
   }));
-  playlistRecord.send(did);
+  await playlistRecord.send(did);
 } else {
   playlistRecord = playlistRecords[0];
 }
@@ -123,7 +123,7 @@ for (const track of albumTracks) {
           published: true,
         },
       });
-      trackRecord.send(did);
+      await trackRecord.send(did);
     } else {
       const { records: trackRecords } = await web5.dwn.records.query({
         message: {
