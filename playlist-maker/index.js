@@ -51,10 +51,56 @@ if (!playlistRecords || !playlistRecords.length) {
   playlistRecord = playlistRecords[0];
 }
 
-const albumRes = await fetch("./mockAlbum.json");
-const tracksRes = await fetch("./mockTracks.json");
-const { resource } = await albumRes.json();
-const { data: albumTracks } = await tracksRes.json();
+let albumRes;
+let tracksRes;
+let resource;
+let albumTracks;
+try {
+  const token = await fetch("https://auth.tidal.com/v1/oauth2/token", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      Authorization:
+        "Basic eUZZeXVxd1dOVE10ZnQwZDpzamozbmlRZHhwTkRUSzNiZTB5Zjl4dVc0SXR6TjZzU2ZVS1hmM2JqWjNFPQ==",
+    },
+    body: new URLSearchParams({
+      grant_type: "client_credentials",
+    }),
+  });
+  const tokenJson = await token.json();
+  console.log(tokenJson);
+
+  albumRes = await fetch(
+    "https://openapi.tidal.com/albums/59727856?countryCode=US",
+    {
+      headers: {
+        accept: "application/vnd.tidal.v1+json",
+        "Content-Type": "application/vnd.tidal.v1+json",
+        Authorization: `Bearer ${tokenJson.access_token}`,
+      },
+    }
+  );
+
+  tracksRes = await fetch(
+    "https://openapi.tidal.com/albums/59727856/items?countryCode=US",
+    {
+      headers: {
+        accept: "application/vnd.tidal.v1+json",
+        "Content-Type": "application/vnd.tidal.v1+json",
+        Authorization: `Bearer ${tokenJson.access_token}`,
+      },
+    }
+  );
+
+  ({ resource } = await albumRes.data.json());
+  ({ data: albumTracks } = await tracksRes.data.json());
+} catch {
+  // throw new Error("error fetching album and track data ");
+  albumRes = await fetch("./mockAlbum.json");
+  tracksRes = await fetch("./mockTracks.json");
+  ({ resource } = await albumRes.json());
+  ({ data: albumTracks } = await tracksRes.json());
+}
 
 const copyDidButton = document.querySelector("#copyDidButton");
 const albumCover = document.querySelector("#albumCover");
@@ -162,43 +208,3 @@ for (const track of albumTracks) {
   listItem.append(trackDuration);
   trackList.append(listItem);
 }
-
-// try {
-//   const token = await fetch("https://auth.tidal.com/v1/oauth2/token", {
-//     method: "POST",
-//     headers: {
-//       "Content-Type": "application/x-www-form-urlencoded",
-//       Authorization:
-//         "Basic eUZZeXVxd1dOVE10ZnQwZDpzamozbmlRZHhwTkRUSzNiZTB5Zjl4dVc0SXR6TjZzU2ZVS1hmM2JqWjNFPQ==",
-//     },
-//     body: new URLSearchParams({
-//       grant_type: "client_credentials",
-//     }),
-//   });
-//   const tokenJson = await token.json();
-//   console.log(tokenJson);
-
-//   albumRes = await fetch(
-//     "https://openapi.tidal.com/albums/59727856?countryCode=US",
-//     {
-//       headers: {
-//         accept: "application/vnd.tidal.v1+json",
-//         "Content-Type": "application/vnd.tidal.v1+json",
-//         Authorization: `Bearer ${tokenJson.access_token}`,
-//       },
-//     }
-//   );
-
-//   tracksRes = await fetch(
-//     "https://openapi.tidal.com/albums/59727856/items?countryCode=US",
-//     {
-//       headers: {
-//         accept: "application/vnd.tidal.v1+json",
-//         "Content-Type": "application/vnd.tidal.v1+json",
-//         Authorization: `Bearer ${tokenJson.access_token}`,
-//       },
-//     }
-//   );
-// } catch {
-//   throw new Error("error fetching album and track data ");
-// }
