@@ -71,7 +71,7 @@ try {
   console.log(tokenJson);
 
   albumRes = await fetch(
-    "https://openapi.tidal.com/albums/59727856?countryCode=US",
+    "https://openapi.tidal.com/albums/251380836?countryCode=US",
     {
       headers: {
         accept: "application/vnd.tidal.v1+json",
@@ -82,7 +82,7 @@ try {
   );
 
   tracksRes = await fetch(
-    "https://openapi.tidal.com/albums/59727856/items?countryCode=US",
+    "https://openapi.tidal.com/albums/251380836/items?countryCode=US",
     {
       headers: {
         accept: "application/vnd.tidal.v1+json",
