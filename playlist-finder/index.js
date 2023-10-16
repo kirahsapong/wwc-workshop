@@ -3,7 +3,8 @@ import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.8.1/dist/browser.
 const loading = document.querySelector("#loading");
 const fanDid = document.querySelector("#fanDid");
 const fanDidError = document.querySelector("#fanDidError");
-const getFanPlaylistButton = document.querySelector("#getFanPlaylistButton");
+const fanPlaylistButton = document.querySelector("#fanPlaylistButton");
+const fanForm = document.querySelector("#fanForm");
 const trackList = document.querySelector("#trackList");
 
 const { web5 } = await Web5.connect();
@@ -11,28 +12,30 @@ const { web5 } = await Web5.connect();
 if (web5) {
   // Remove loading on successful load of web5
   document.body.removeChild(loading);
+  content.style.visibility = "visible";
 
   // Handle user input of DID
-  fanDid.onchange = (e) => {
+  fanDid.oninput = (e) => {
     if (fanDidError.childElementCount > 0) {
       fanDidError.textContent = "";
     }
     if (e.currentTarget.value) {
-      getFanPlaylistButton.removeAttribute("disabled");
+      fanPlaylistButton.removeAttribute("disabled");
     } else {
-      getFanPlaylistButton.setAttribute("disabled", "true");
+      fanPlaylistButton.setAttribute("disabled", "true");
     }
   };
   fanDid.onkeyup = (e) => {
     e.preventDefault();
     if (e.key === "Enter" && e.currentTarget.value) {
-      getFanPlaylistButton.removeAttribute("disabled");
-      getFanPlaylistButton.click();
+      fanPlaylistButton.removeAttribute("disabled");
+      fanPlaylistButton.click();
     }
   };
 
   // Get playlist from DID's DWN
-  getFanPlaylistButton.onclick = async () => {
+  fanForm.onsubmit = async (e) => {
+    e.preventDefault();
     fanDidError.textContent = "";
     trackList.replaceChildren([]);
     if (fanDid.value) {
@@ -89,6 +92,7 @@ if (web5) {
                 .join(", ");
               const trackCopyright = document.createElement("p");
               trackCopyright.textContent = track.resource.copyright;
+              trackCopyright.classList.add("copyright");
               trackDetail.append(trackTitle);
               trackDetail.append(trackAlbum);
               trackDetail.append(trackArtists);

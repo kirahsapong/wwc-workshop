@@ -8,23 +8,35 @@
   </head>
 
   <body>
-    <div id="loading">Loading Web5...</div>
-    <header>
-      <h1 id="header">WWC Workshop - Fan Finder</h1>
-    </header>
-    <main>
-      <div class="mainHeader">
-        <div>
-          <label for="fanDid">Fan DID</label>
-          <input id="fanDid" placeholder="Enter DID here" />
-          <button id="getFanPlaylistButton" disabled>Get</button>
-          <span id="fanDidError"></span>
+    <div id="loading">Getting the fans ready...</div>
+    <div id="content" style="visibility: hidden">
+      <header>
+        <h1 id="heading">Fanship</h1>
+        <p id="subheading">
+          Find a fan's playlist. Enter their DID below to get their favourite
+          tracks.
+        </p>
+      </header>
+      <main>
+        <div id="mainHeader">
+          <form id="fanForm">
+            <label for="fanDid" class="sr-only">Enter the fan's DID</label>
+            <div id="fanFormInput">
+              <input
+                id="fanDid"
+                placeholder="Enter the fan's DID"
+                autocomplete="off"
+              />
+              <button id="fanPlaylistButton" disabled>Go</button>
+            </div>
+            <span id="fanDidError"></span>
+          </form>
         </div>
-      </div>
-      <div>
-        <ul id="trackList"></ul>
-      </div>
-    </main>
+        <div>
+          <ul id="trackList"></ul>
+        </div>
+      </main>
+    </div>
     <script type="module" src="./index.js"></script>
   </body>
 </html>

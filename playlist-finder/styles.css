@@ -1,3 +1,8 @@
+:root {
+  --background: #b8d5db;
+  --text-color: #3c4b4e;
+}
+
 *,
 *::before,
 *::after {
@@ -8,6 +13,32 @@
   margin: 0;
 }
 
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+.sr-only-focusable:focus,
+.sr-only-focusable:active {
+  clip: auto !important;
+  -webkit-clip-path: none !important;
+  clip-path: none !important;
+  height: auto !important;
+  margin: auto !important;
+  overflow: visible !important;
+  width: auto !important;
+  white-space: normal !important;
+}
+
 html {
   font-size: 100%;
 }
@@ -16,6 +47,11 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: sans-serif;
+  background: var(--background);
+  color: var(--text-color);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  padding-block: 6rem;
 }
 
 img,
@@ -35,15 +71,6 @@ select {
   color: inherit;
 }
 
-button {
-  cursor: pointer;
-}
-
-button[disabled] {
-  cursor: auto;
-  opacity: 0.6;
-}
-
 p,
 h1,
 h2,
@@ -52,15 +79,22 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  font-weight: inherit;
 }
 
 p {
   margin-block: 1rem;
 }
 
-body {
-  background: black;
-  color: white;
+h1#heading {
+  text-transform: uppercase;
+  font-family: Georgia, serif;
+  font-size: 4rem;
+  font-style: italic;
+}
+
+p#subheading {
+  font-size: 1.5rem;
 }
 
 button,
@@ -68,7 +102,72 @@ input {
   color: initial;
 }
 
-body > #loading {
+button {
+  cursor: pointer;
+  border-radius: 999px;
+  text-transform: uppercase;
+  padding: 1rem;
+  border: 1px solid var(--background);
+  background: var(--text-color);
+  color: var(--background);
+}
+
+button:hover,
+button:focus-visible {
+  color: white;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+button[disabled] {
+  cursor: auto;
+  opacity: 0.3;
+  background: var(--background);
+  color: var(--text-color);
+}
+
+#fanForm {
+  width: 100%;
+
+  & #fanFormInput {
+    display: flex;
+    border: 1px solid white;
+    background: #dfeaec;
+    border-radius: 999px;
+    padding: 0.5rem;
+    gap: 0.5rem;
+
+    & input {
+      flex: 1;
+      border: none;
+      background: none;
+      border-radius: 999px;
+      padding: 1rem;
+    }
+
+    & button {
+      flex: 0.25;
+    }
+  }
+
+  & #fanDidError {
+    margin: 0.5rem 1.5rem;
+  }
+}
+
+#fanForm > label,
+#fanForm > span {
+  display: block;
+}
+
+#content {
+  display: contents;
+}
+
+#loading {
+  top: 0;
   width: 100dvw;
   height: 100dvh;
   position: absolute;
@@ -77,42 +176,49 @@ body > #loading {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: black;
+  background: var(--background);
+  font-size: 2rem;
 }
 
-body > header,
-body > main {
+header,
+main {
   max-width: 580px;
   margin: auto;
+  padding-inline: 1rem;
 }
 
-main > .mainHeader {
-  display: flex;
-}
-
-main > .mainHeader > div > label,
-main > .mainHeader > div > span {
-  display: block;
+main {
+  & #mainHeader {
+    display: flex;
+  }
 }
 
 ul#trackList {
   padding-inline: 0;
-}
 
-ul#trackList > li {
-  display: flex;
-  justify-content: space-between;
-}
+  & li {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-block: 2rem;
 
-ul#trackList > li > div {
-  display: flex;
-}
+    & > div {
+      display: flex;
+      gap: 1rem;
 
-ul#trackList > li > div > img {
-  height: 48px;
-  width: 48px;
-}
+      & > img {
+        height: 48px;
+        width: 48px;
+      }
+    }
 
-ul#trackList > li p {
-  margin-block: 0;
+    & p {
+      margin-block: 0;
+
+      &.copyright {
+        font-size: 0.8rem;
+        margin-block-start: 0.5rem;
+      }
+    }
+  }
 }
