@@ -99,8 +99,8 @@ if (web5) {
       );
     } catch {
       // Fallback to mock album and track data
-      albumRes = await fetch("./mockAlbum.json");
-      tracksRes = await fetch("./mockTracks.json");
+      albumRes = await fetch("./mocks/mockAlbum.json");
+      tracksRes = await fetch("./mocks/mockTracks.json");
     }
     const { resource: album } = await albumRes.json();
     const { data: albumTracks } = await tracksRes.json();
