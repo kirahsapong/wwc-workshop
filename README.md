@@ -87,4 +87,6 @@ To clear all local data associated with your Web5 test DID during development, y
 
 Congratulations! You completed the lab and now know how to build applications using the Tidal API Beta and open protocols with Web5.
 
-What other applications can you think of for the data you helped your users create and store in their own personal DWNs today? Maybe it's a fitness app that populates
+Now for some further exploration: How else can your users make the most of the data you helped them create and store in their personal DWNs today? With full control over their data, what kind of products can help them use it to better streamline their lives? Any cool apps or websites that could fit right into their data ecosystem, based on what they've created today?
+
+Brainstorm ideas and bounce them around with friends and family. Finally – and most importantly – have fun building it!
