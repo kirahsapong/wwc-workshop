@@ -48,7 +48,7 @@ $ npx http-server playlist-finder -o
 
 ### Tidal API Beta
 
-To get started with your own Tidal API token, create an account in [Tidal's Developer Dashboard]() and make note of your Client ID and Client Secret.
+To get started with your own Tidal API token, create an account in [Tidal's Developer Dashboard](https://developer.tidal.com/dashboard) and make note of your **Client ID** and **Client Secret**. If you run into any issues, have any questions, or just want to say "Hi!", you can go to [Tidal's Community Discussion Forum](https://github.com/orgs/tidal-music/discussions).
 
 In your terminal, generate a base64 API key:
 
@@ -56,14 +56,19 @@ In your terminal, generate a base64 API key:
 echo -n "CLIENT_ID:CLIENT_SECRET" | base64
 ```
 
-Create a `config.js` file in your `playlist-maker` folder and add your API variables.
+Go to `config.js` in your `playlist-maker` folder and add your API base64 key:
 
 ```
 export const API_KEY = "{YOUR_GENERATED_BASE64_KEY_GOES_HERE}"
-
 ```
 
-This file will be ignored by your `.gitignore` file anytime you push your changes.
+Go back to your terminal and project directory to run:
+
+```
+`git update-index --skip-worktree playlist-maker/config.js
+```
+
+This ensures you don't push this value to Github in the future.
 
 ### Web5 SDK
 
