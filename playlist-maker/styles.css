@@ -137,6 +137,13 @@ h1#heading {
   margin-block: 8rem 4rem;
 }
 
+@media screen and (max-width: 668px) {
+  h1#heading {
+    font-size: 4rem;
+    letter-spacing: -0.4rem;
+  }
+}
+
 @media screen and (max-width: 425px) {
   h1#heading {
     font-size: 4rem;
@@ -202,7 +209,18 @@ ul#trackList {
 
     & input[type="checkbox"] {
       appearance: none;
-      display: contents;
+      display: inline;
+
+      &:focus-visible + label {
+        outline: -webkit-focus-ring-color auto 1px;
+        outline-offset: 2px;
+      }
+
+      &:checked + label {
+        background: black;
+        color: white;
+        border-color: white;
+      }
     }
 
     & label {
@@ -221,12 +239,6 @@ ul#trackList {
       &:focus-visible {
         cursor: pointer;
       }
-    }
-
-    & input[type="checkbox"]:checked + label {
-      background: black;
-      color: white;
-      border-color: white;
     }
   }
 }
