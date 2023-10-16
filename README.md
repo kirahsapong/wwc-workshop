@@ -34,11 +34,11 @@ $ cd wwc-workshop
 2. At the end of this lab, you'll use the below commands to run `playlist-maker` and `playlist-finder` in your browser.
 
 ```
-$ npx http-server playlist-maker -o
+$ npx http-server playlist-maker -o -c-1
 ```
 
 ```
-$ npx http-server playlist-finder -o
+$ npx http-server playlist-finder -o -c-1
 ```
 
 3. The final deployed sites will be available at:
