@@ -1,0 +1,41 @@
+{
+  "protocol": "https://example.com/protocol",
+  "published": true,
+  "types": {
+    "playlist": {
+      "schema": "https://example.com/schema/playlist",
+      "dataFormats": ["application/json"]
+    },
+    "track": {
+      "schema": "https://example.com/schema/track",
+      "dataFormats": ["application/json"]
+    }
+  },
+  "structure": {
+    "playlist": {
+      "$actions": [
+        {
+          "who": "anyone",
+          "can": "write"
+        },
+        {
+          "who": "anyone",
+          "can": "read"
+        }
+      ],
+      "track": {
+        "$actions": [
+          {
+            "who": "author",
+            "of": "playlist",
+            "can": "write"
+          },
+          {
+            "who": "anyone",
+            "can": "read"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -3,8 +3,8 @@
     {
       "resource": {
         "artifactType": "track",
-        "id": "59727857",
-        "title": "PRAY YOU CATCH ME",
+        "id": "251380837",
+        "title": "I'M THAT GIRL",
         "artists": [
           {
             "id": "1566",
@@ -65,102 +65,68 @@
           }
         ],
         "album": {
-          "id": "59727856",
-          "title": "LEMONADE",
+          "id": "251380836",
+          "title": "RENAISSANCE",
           "imageCover": [
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1080x1080.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1080x1080.jpg",
               "width": 1080,
               "height": 1080
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1280x1280.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1280x1280.jpg",
               "width": 1280,
               "height": 1280
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/160x160.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/160x160.jpg",
               "width": 160,
               "height": 160
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/320x320.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/320x320.jpg",
               "width": 320,
               "height": 320
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/640x640.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/640x640.jpg",
               "width": 640,
               "height": 640
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/750x750.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/750x750.jpg",
               "width": 750,
               "height": 750
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/80x80.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/80x80.jpg",
               "width": 80,
               "height": 80
             }
           ],
-          "videoCover": [
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1080x1080.mp4",
-              "width": 1080,
-              "height": 1080
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1280x1280.mp4",
-              "width": 1280,
-              "height": 1280
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/160x160.mp4",
-              "width": 160,
-              "height": 160
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/320x320.mp4",
-              "width": 320,
-              "height": 320
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/640x640.mp4",
-              "width": 640,
-              "height": 640
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/750x750.mp4",
-              "width": 750,
-              "height": 750
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/80x80.mp4",
-              "width": 80,
-              "height": 80
-            }
-          ]
+          "videoCover": []
         },
-        "duration": 196,
+        "duration": 208,
         "trackNumber": 1,
         "volumeNumber": 1,
-        "isrc": "USSM11603175",
-        "copyright": "(C) Parkwood Entertainment",
+        "isrc": "USSM12209515",
+        "copyright": "(P) 2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
         "mediaMetadata": {
-          "tags": ["LOSSLESS", "MQA"]
+          "tags": ["DOLBY_ATMOS"]
         },
-        "properties": {}
+        "properties": {
+          "content": ["explicit"]
+        }
       },
-      "id": "59727857",
+      "id": "251380837",
       "status": 200,
       "message": "success"
     },
     {
       "resource": {
         "artifactType": "track",
-        "id": "59727858",
-        "title": "HOLD UP",
+        "id": "251380838",
+        "title": "COZY",
         "artists": [
           {
             "id": "1566",
@@ -221,104 +187,68 @@
           }
         ],
         "album": {
-          "id": "59727856",
-          "title": "LEMONADE",
+          "id": "251380836",
+          "title": "RENAISSANCE",
           "imageCover": [
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1080x1080.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1080x1080.jpg",
               "width": 1080,
               "height": 1080
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1280x1280.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1280x1280.jpg",
               "width": 1280,
               "height": 1280
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/160x160.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/160x160.jpg",
               "width": 160,
               "height": 160
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/320x320.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/320x320.jpg",
               "width": 320,
               "height": 320
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/640x640.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/640x640.jpg",
               "width": 640,
               "height": 640
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/750x750.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/750x750.jpg",
               "width": 750,
               "height": 750
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/80x80.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/80x80.jpg",
               "width": 80,
               "height": 80
             }
           ],
-          "videoCover": [
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1080x1080.mp4",
-              "width": 1080,
-              "height": 1080
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1280x1280.mp4",
-              "width": 1280,
-              "height": 1280
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/160x160.mp4",
-              "width": 160,
-              "height": 160
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/320x320.mp4",
-              "width": 320,
-              "height": 320
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/640x640.mp4",
-              "width": 640,
-              "height": 640
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/750x750.mp4",
-              "width": 750,
-              "height": 750
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/80x80.mp4",
-              "width": 80,
-              "height": 80
-            }
-          ]
+          "videoCover": []
         },
-        "duration": 221,
+        "duration": 210,
         "trackNumber": 2,
         "volumeNumber": 1,
-        "isrc": "USSM11603176",
-        "copyright": "(C) Parkwood Entertainment",
+        "isrc": "USSM12209516",
+        "copyright": "(P) 2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
         "mediaMetadata": {
-          "tags": ["LOSSLESS", "MQA"]
+          "tags": ["DOLBY_ATMOS"]
         },
         "properties": {
           "content": ["explicit"]
         }
       },
-      "id": "59727858",
+      "id": "251380838",
       "status": 200,
       "message": "success"
     },
     {
       "resource": {
         "artifactType": "track",
-        "id": "59727859",
-        "title": "DON’T HURT YOURSELF",
+        "id": "251380840",
+        "title": "ALIEN SUPERSTAR",
         "artists": [
           {
             "id": "1566",
@@ -376,164 +306,71 @@
               }
             ],
             "main": true
-          },
-          {
-            "id": "3523905",
-            "name": "Jack White",
-            "picture": [
-              {
-                "url": "https://resources.tidal.com/images/a209a9ce/52bb/474a/942e/8174a5e2dbcd/1024x256.jpg",
-                "width": 1024,
-                "height": 256
-              },
-              {
-                "url": "https://resources.tidal.com/images/a209a9ce/52bb/474a/942e/8174a5e2dbcd/1080x720.jpg",
-                "width": 1080,
-                "height": 720
-              },
-              {
-                "url": "https://resources.tidal.com/images/a209a9ce/52bb/474a/942e/8174a5e2dbcd/160x107.jpg",
-                "width": 160,
-                "height": 107
-              },
-              {
-                "url": "https://resources.tidal.com/images/a209a9ce/52bb/474a/942e/8174a5e2dbcd/160x160.jpg",
-                "width": 160,
-                "height": 160
-              },
-              {
-                "url": "https://resources.tidal.com/images/a209a9ce/52bb/474a/942e/8174a5e2dbcd/320x214.jpg",
-                "width": 320,
-                "height": 214
-              },
-              {
-                "url": "https://resources.tidal.com/images/a209a9ce/52bb/474a/942e/8174a5e2dbcd/320x320.jpg",
-                "width": 320,
-                "height": 320
-              },
-              {
-                "url": "https://resources.tidal.com/images/a209a9ce/52bb/474a/942e/8174a5e2dbcd/480x480.jpg",
-                "width": 480,
-                "height": 480
-              },
-              {
-                "url": "https://resources.tidal.com/images/a209a9ce/52bb/474a/942e/8174a5e2dbcd/640x428.jpg",
-                "width": 640,
-                "height": 428
-              },
-              {
-                "url": "https://resources.tidal.com/images/a209a9ce/52bb/474a/942e/8174a5e2dbcd/750x500.jpg",
-                "width": 750,
-                "height": 500
-              },
-              {
-                "url": "https://resources.tidal.com/images/a209a9ce/52bb/474a/942e/8174a5e2dbcd/750x750.jpg",
-                "width": 750,
-                "height": 750
-              }
-            ],
-            "main": false
           }
         ],
         "album": {
-          "id": "59727856",
-          "title": "LEMONADE",
+          "id": "251380836",
+          "title": "RENAISSANCE",
           "imageCover": [
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1080x1080.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1080x1080.jpg",
               "width": 1080,
               "height": 1080
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1280x1280.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1280x1280.jpg",
               "width": 1280,
               "height": 1280
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/160x160.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/160x160.jpg",
               "width": 160,
               "height": 160
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/320x320.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/320x320.jpg",
               "width": 320,
               "height": 320
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/640x640.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/640x640.jpg",
               "width": 640,
               "height": 640
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/750x750.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/750x750.jpg",
               "width": 750,
               "height": 750
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/80x80.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/80x80.jpg",
               "width": 80,
               "height": 80
             }
           ],
-          "videoCover": [
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1080x1080.mp4",
-              "width": 1080,
-              "height": 1080
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1280x1280.mp4",
-              "width": 1280,
-              "height": 1280
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/160x160.mp4",
-              "width": 160,
-              "height": 160
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/320x320.mp4",
-              "width": 320,
-              "height": 320
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/640x640.mp4",
-              "width": 640,
-              "height": 640
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/750x750.mp4",
-              "width": 750,
-              "height": 750
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/80x80.mp4",
-              "width": 80,
-              "height": 80
-            }
-          ]
+          "videoCover": []
         },
-        "duration": 234,
+        "duration": 215,
         "trackNumber": 3,
         "volumeNumber": 1,
-        "isrc": "USSM11603177",
-        "copyright": "(C) Parkwood Entertainment",
+        "isrc": "USSM12209517",
+        "copyright": "(P) 2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
         "mediaMetadata": {
-          "tags": ["LOSSLESS", "MQA"]
+          "tags": ["DOLBY_ATMOS"]
         },
         "properties": {
           "content": ["explicit"]
         }
       },
-      "id": "59727859",
+      "id": "251380840",
       "status": 200,
       "message": "success"
     },
     {
       "resource": {
         "artifactType": "track",
-        "id": "59727860",
-        "title": "SORRY",
+        "id": "251380841",
+        "title": "CUFF IT",
         "artists": [
           {
             "id": "1566",
@@ -594,104 +431,68 @@
           }
         ],
         "album": {
-          "id": "59727856",
-          "title": "LEMONADE",
+          "id": "251380836",
+          "title": "RENAISSANCE",
           "imageCover": [
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1080x1080.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1080x1080.jpg",
               "width": 1080,
               "height": 1080
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1280x1280.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1280x1280.jpg",
               "width": 1280,
               "height": 1280
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/160x160.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/160x160.jpg",
               "width": 160,
               "height": 160
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/320x320.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/320x320.jpg",
               "width": 320,
               "height": 320
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/640x640.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/640x640.jpg",
               "width": 640,
               "height": 640
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/750x750.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/750x750.jpg",
               "width": 750,
               "height": 750
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/80x80.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/80x80.jpg",
               "width": 80,
               "height": 80
             }
           ],
-          "videoCover": [
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1080x1080.mp4",
-              "width": 1080,
-              "height": 1080
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1280x1280.mp4",
-              "width": 1280,
-              "height": 1280
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/160x160.mp4",
-              "width": 160,
-              "height": 160
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/320x320.mp4",
-              "width": 320,
-              "height": 320
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/640x640.mp4",
-              "width": 640,
-              "height": 640
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/750x750.mp4",
-              "width": 750,
-              "height": 750
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/80x80.mp4",
-              "width": 80,
-              "height": 80
-            }
-          ]
+          "videoCover": []
         },
-        "duration": 233,
+        "duration": 225,
         "trackNumber": 4,
         "volumeNumber": 1,
-        "isrc": "USSM11603178",
-        "copyright": "(C) Parkwood Entertainment",
+        "isrc": "USSM12209518",
+        "copyright": "(P) 2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
         "mediaMetadata": {
-          "tags": ["LOSSLESS", "MQA"]
+          "tags": ["DOLBY_ATMOS"]
         },
         "properties": {
           "content": ["explicit"]
         }
       },
-      "id": "59727860",
+      "id": "251380841",
       "status": 200,
       "message": "success"
     },
     {
       "resource": {
         "artifactType": "track",
-        "id": "59727861",
-        "title": "6 INCH",
+        "id": "251380842",
+        "title": "ENERGY (feat. Beam)",
         "artists": [
           {
             "id": "1566",
@@ -751,56 +552,56 @@
             "main": true
           },
           {
-            "id": "4761957",
-            "name": "The Weeknd",
+            "id": "3555728",
+            "name": "BEAM",
             "picture": [
               {
-                "url": "https://resources.tidal.com/images/200c3e82/b3b2/4965/8e19/ac6a1d7e667b/1024x256.jpg",
+                "url": "https://resources.tidal.com/images/80aefd66/dd1f/4520/99f2/09621363ebf0/1024x256.jpg",
                 "width": 1024,
                 "height": 256
               },
               {
-                "url": "https://resources.tidal.com/images/200c3e82/b3b2/4965/8e19/ac6a1d7e667b/1080x720.jpg",
+                "url": "https://resources.tidal.com/images/80aefd66/dd1f/4520/99f2/09621363ebf0/1080x720.jpg",
                 "width": 1080,
                 "height": 720
               },
               {
-                "url": "https://resources.tidal.com/images/200c3e82/b3b2/4965/8e19/ac6a1d7e667b/160x107.jpg",
+                "url": "https://resources.tidal.com/images/80aefd66/dd1f/4520/99f2/09621363ebf0/160x107.jpg",
                 "width": 160,
                 "height": 107
               },
               {
-                "url": "https://resources.tidal.com/images/200c3e82/b3b2/4965/8e19/ac6a1d7e667b/160x160.jpg",
+                "url": "https://resources.tidal.com/images/80aefd66/dd1f/4520/99f2/09621363ebf0/160x160.jpg",
                 "width": 160,
                 "height": 160
               },
               {
-                "url": "https://resources.tidal.com/images/200c3e82/b3b2/4965/8e19/ac6a1d7e667b/320x214.jpg",
+                "url": "https://resources.tidal.com/images/80aefd66/dd1f/4520/99f2/09621363ebf0/320x214.jpg",
                 "width": 320,
                 "height": 214
               },
               {
-                "url": "https://resources.tidal.com/images/200c3e82/b3b2/4965/8e19/ac6a1d7e667b/320x320.jpg",
+                "url": "https://resources.tidal.com/images/80aefd66/dd1f/4520/99f2/09621363ebf0/320x320.jpg",
                 "width": 320,
                 "height": 320
               },
               {
-                "url": "https://resources.tidal.com/images/200c3e82/b3b2/4965/8e19/ac6a1d7e667b/480x480.jpg",
+                "url": "https://resources.tidal.com/images/80aefd66/dd1f/4520/99f2/09621363ebf0/480x480.jpg",
                 "width": 480,
                 "height": 480
               },
               {
-                "url": "https://resources.tidal.com/images/200c3e82/b3b2/4965/8e19/ac6a1d7e667b/640x428.jpg",
+                "url": "https://resources.tidal.com/images/80aefd66/dd1f/4520/99f2/09621363ebf0/640x428.jpg",
                 "width": 640,
                 "height": 428
               },
               {
-                "url": "https://resources.tidal.com/images/200c3e82/b3b2/4965/8e19/ac6a1d7e667b/750x500.jpg",
+                "url": "https://resources.tidal.com/images/80aefd66/dd1f/4520/99f2/09621363ebf0/750x500.jpg",
                 "width": 750,
                 "height": 500
               },
               {
-                "url": "https://resources.tidal.com/images/200c3e82/b3b2/4965/8e19/ac6a1d7e667b/750x750.jpg",
+                "url": "https://resources.tidal.com/images/80aefd66/dd1f/4520/99f2/09621363ebf0/750x750.jpg",
                 "width": 750,
                 "height": 750
               }
@@ -809,104 +610,66 @@
           }
         ],
         "album": {
-          "id": "59727856",
-          "title": "LEMONADE",
+          "id": "251380836",
+          "title": "RENAISSANCE",
           "imageCover": [
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1080x1080.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1080x1080.jpg",
               "width": 1080,
               "height": 1080
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1280x1280.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1280x1280.jpg",
               "width": 1280,
               "height": 1280
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/160x160.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/160x160.jpg",
               "width": 160,
               "height": 160
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/320x320.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/320x320.jpg",
               "width": 320,
               "height": 320
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/640x640.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/640x640.jpg",
               "width": 640,
               "height": 640
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/750x750.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/750x750.jpg",
               "width": 750,
               "height": 750
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/80x80.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/80x80.jpg",
               "width": 80,
               "height": 80
             }
           ],
-          "videoCover": [
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1080x1080.mp4",
-              "width": 1080,
-              "height": 1080
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1280x1280.mp4",
-              "width": 1280,
-              "height": 1280
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/160x160.mp4",
-              "width": 160,
-              "height": 160
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/320x320.mp4",
-              "width": 320,
-              "height": 320
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/640x640.mp4",
-              "width": 640,
-              "height": 640
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/750x750.mp4",
-              "width": 750,
-              "height": 750
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/80x80.mp4",
-              "width": 80,
-              "height": 80
-            }
-          ]
+          "videoCover": []
         },
-        "duration": 260,
+        "duration": 117,
         "trackNumber": 5,
         "volumeNumber": 1,
-        "isrc": "USSM11603179",
-        "copyright": "(C) Parkwood Entertainment",
+        "isrc": "USSM12209519",
+        "copyright": "(P) 2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
         "mediaMetadata": {
-          "tags": ["LOSSLESS", "MQA"]
+          "tags": ["DOLBY_ATMOS"]
         },
-        "properties": {
-          "content": ["explicit"]
-        }
+        "properties": {}
       },
-      "id": "59727861",
+      "id": "251380842",
       "status": 200,
       "message": "success"
     },
     {
       "resource": {
         "artifactType": "track",
-        "id": "59727862",
-        "title": "DADDY LESSONS",
+        "id": "251380844",
+        "title": "BREAK MY SOUL",
         "artists": [
           {
             "id": "1566",
@@ -967,102 +730,66 @@
           }
         ],
         "album": {
-          "id": "59727856",
-          "title": "LEMONADE",
+          "id": "251380836",
+          "title": "RENAISSANCE",
           "imageCover": [
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1080x1080.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1080x1080.jpg",
               "width": 1080,
               "height": 1080
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1280x1280.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1280x1280.jpg",
               "width": 1280,
               "height": 1280
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/160x160.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/160x160.jpg",
               "width": 160,
               "height": 160
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/320x320.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/320x320.jpg",
               "width": 320,
               "height": 320
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/640x640.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/640x640.jpg",
               "width": 640,
               "height": 640
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/750x750.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/750x750.jpg",
               "width": 750,
               "height": 750
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/80x80.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/80x80.jpg",
               "width": 80,
               "height": 80
             }
           ],
-          "videoCover": [
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1080x1080.mp4",
-              "width": 1080,
-              "height": 1080
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1280x1280.mp4",
-              "width": 1280,
-              "height": 1280
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/160x160.mp4",
-              "width": 160,
-              "height": 160
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/320x320.mp4",
-              "width": 320,
-              "height": 320
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/640x640.mp4",
-              "width": 640,
-              "height": 640
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/750x750.mp4",
-              "width": 750,
-              "height": 750
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/80x80.mp4",
-              "width": 80,
-              "height": 80
-            }
-          ]
+          "videoCover": []
         },
-        "duration": 288,
+        "duration": 278,
         "trackNumber": 6,
         "volumeNumber": 1,
-        "isrc": "USSM11603180",
-        "copyright": "(C) Parkwood Entertainment",
+        "isrc": "USSM12209520",
+        "copyright": "(P) 2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
         "mediaMetadata": {
-          "tags": ["LOSSLESS", "MQA"]
+          "tags": ["DOLBY_ATMOS"]
         },
         "properties": {}
       },
-      "id": "59727862",
+      "id": "251380844",
       "status": 200,
       "message": "success"
     },
     {
       "resource": {
         "artifactType": "track",
-        "id": "59727863",
-        "title": "LOVE DROUGHT",
+        "id": "251380845",
+        "title": "CHURCH GIRL",
         "artists": [
           {
             "id": "1566",
@@ -1123,260 +850,68 @@
           }
         ],
         "album": {
-          "id": "59727856",
-          "title": "LEMONADE",
+          "id": "251380836",
+          "title": "RENAISSANCE",
           "imageCover": [
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1080x1080.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1080x1080.jpg",
               "width": 1080,
               "height": 1080
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1280x1280.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1280x1280.jpg",
               "width": 1280,
               "height": 1280
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/160x160.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/160x160.jpg",
               "width": 160,
               "height": 160
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/320x320.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/320x320.jpg",
               "width": 320,
               "height": 320
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/640x640.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/640x640.jpg",
               "width": 640,
               "height": 640
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/750x750.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/750x750.jpg",
               "width": 750,
               "height": 750
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/80x80.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/80x80.jpg",
               "width": 80,
               "height": 80
             }
           ],
-          "videoCover": [
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1080x1080.mp4",
-              "width": 1080,
-              "height": 1080
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1280x1280.mp4",
-              "width": 1280,
-              "height": 1280
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/160x160.mp4",
-              "width": 160,
-              "height": 160
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/320x320.mp4",
-              "width": 320,
-              "height": 320
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/640x640.mp4",
-              "width": 640,
-              "height": 640
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/750x750.mp4",
-              "width": 750,
-              "height": 750
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/80x80.mp4",
-              "width": 80,
-              "height": 80
-            }
-          ]
+          "videoCover": []
         },
-        "duration": 237,
+        "duration": 224,
         "trackNumber": 7,
         "volumeNumber": 1,
-        "isrc": "USSM11603181",
-        "copyright": "(C) Parkwood Entertainment",
+        "isrc": "USSM12209521",
+        "copyright": "(P) 2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
         "mediaMetadata": {
-          "tags": ["LOSSLESS", "MQA"]
-        },
-        "properties": {}
-      },
-      "id": "59727863",
-      "status": 200,
-      "message": "success"
-    },
-    {
-      "resource": {
-        "artifactType": "track",
-        "id": "59727864",
-        "title": "SANDCASTLES",
-        "artists": [
-          {
-            "id": "1566",
-            "name": "Beyoncé",
-            "picture": [
-              {
-                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/1024x256.jpg",
-                "width": 1024,
-                "height": 256
-              },
-              {
-                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/1080x720.jpg",
-                "width": 1080,
-                "height": 720
-              },
-              {
-                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/160x107.jpg",
-                "width": 160,
-                "height": 107
-              },
-              {
-                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/160x160.jpg",
-                "width": 160,
-                "height": 160
-              },
-              {
-                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/320x214.jpg",
-                "width": 320,
-                "height": 214
-              },
-              {
-                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/320x320.jpg",
-                "width": 320,
-                "height": 320
-              },
-              {
-                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/480x480.jpg",
-                "width": 480,
-                "height": 480
-              },
-              {
-                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/640x428.jpg",
-                "width": 640,
-                "height": 428
-              },
-              {
-                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/750x500.jpg",
-                "width": 750,
-                "height": 500
-              },
-              {
-                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/750x750.jpg",
-                "width": 750,
-                "height": 750
-              }
-            ],
-            "main": true
-          }
-        ],
-        "album": {
-          "id": "59727856",
-          "title": "LEMONADE",
-          "imageCover": [
-            {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1080x1080.jpg",
-              "width": 1080,
-              "height": 1080
-            },
-            {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1280x1280.jpg",
-              "width": 1280,
-              "height": 1280
-            },
-            {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/160x160.jpg",
-              "width": 160,
-              "height": 160
-            },
-            {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/320x320.jpg",
-              "width": 320,
-              "height": 320
-            },
-            {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/640x640.jpg",
-              "width": 640,
-              "height": 640
-            },
-            {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/750x750.jpg",
-              "width": 750,
-              "height": 750
-            },
-            {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/80x80.jpg",
-              "width": 80,
-              "height": 80
-            }
-          ],
-          "videoCover": [
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1080x1080.mp4",
-              "width": 1080,
-              "height": 1080
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1280x1280.mp4",
-              "width": 1280,
-              "height": 1280
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/160x160.mp4",
-              "width": 160,
-              "height": 160
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/320x320.mp4",
-              "width": 320,
-              "height": 320
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/640x640.mp4",
-              "width": 640,
-              "height": 640
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/750x750.mp4",
-              "width": 750,
-              "height": 750
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/80x80.mp4",
-              "width": 80,
-              "height": 80
-            }
-          ]
-        },
-        "duration": 183,
-        "trackNumber": 8,
-        "volumeNumber": 1,
-        "isrc": "USSM11603182",
-        "copyright": "(C) Parkwood Entertainment",
-        "mediaMetadata": {
-          "tags": ["LOSSLESS", "MQA"]
+          "tags": ["DOLBY_ATMOS"]
         },
         "properties": {
           "content": ["explicit"]
         }
       },
-      "id": "59727864",
+      "id": "251380845",
       "status": 200,
       "message": "success"
     },
     {
       "resource": {
         "artifactType": "track",
-        "id": "59727865",
-        "title": "FORWARD",
+        "id": "251380846",
+        "title": "PLASTIC OFF THE SOFA",
         "artists": [
           {
             "id": "1566",
@@ -1434,162 +969,191 @@
               }
             ],
             "main": true
-          },
-          {
-            "id": "3801573",
-            "name": "James Blake",
-            "picture": [
-              {
-                "url": "https://resources.tidal.com/images/bdac081b/5ea2/44d3/92ce/a340da44cc41/1024x256.jpg",
-                "width": 1024,
-                "height": 256
-              },
-              {
-                "url": "https://resources.tidal.com/images/bdac081b/5ea2/44d3/92ce/a340da44cc41/1080x720.jpg",
-                "width": 1080,
-                "height": 720
-              },
-              {
-                "url": "https://resources.tidal.com/images/bdac081b/5ea2/44d3/92ce/a340da44cc41/160x107.jpg",
-                "width": 160,
-                "height": 107
-              },
-              {
-                "url": "https://resources.tidal.com/images/bdac081b/5ea2/44d3/92ce/a340da44cc41/160x160.jpg",
-                "width": 160,
-                "height": 160
-              },
-              {
-                "url": "https://resources.tidal.com/images/bdac081b/5ea2/44d3/92ce/a340da44cc41/320x214.jpg",
-                "width": 320,
-                "height": 214
-              },
-              {
-                "url": "https://resources.tidal.com/images/bdac081b/5ea2/44d3/92ce/a340da44cc41/320x320.jpg",
-                "width": 320,
-                "height": 320
-              },
-              {
-                "url": "https://resources.tidal.com/images/bdac081b/5ea2/44d3/92ce/a340da44cc41/480x480.jpg",
-                "width": 480,
-                "height": 480
-              },
-              {
-                "url": "https://resources.tidal.com/images/bdac081b/5ea2/44d3/92ce/a340da44cc41/640x428.jpg",
-                "width": 640,
-                "height": 428
-              },
-              {
-                "url": "https://resources.tidal.com/images/bdac081b/5ea2/44d3/92ce/a340da44cc41/750x500.jpg",
-                "width": 750,
-                "height": 500
-              },
-              {
-                "url": "https://resources.tidal.com/images/bdac081b/5ea2/44d3/92ce/a340da44cc41/750x750.jpg",
-                "width": 750,
-                "height": 750
-              }
-            ],
-            "main": false
           }
         ],
         "album": {
-          "id": "59727856",
-          "title": "LEMONADE",
+          "id": "251380836",
+          "title": "RENAISSANCE",
           "imageCover": [
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1080x1080.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1080x1080.jpg",
               "width": 1080,
               "height": 1080
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1280x1280.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1280x1280.jpg",
               "width": 1280,
               "height": 1280
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/160x160.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/160x160.jpg",
               "width": 160,
               "height": 160
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/320x320.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/320x320.jpg",
               "width": 320,
               "height": 320
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/640x640.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/640x640.jpg",
               "width": 640,
               "height": 640
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/750x750.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/750x750.jpg",
               "width": 750,
               "height": 750
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/80x80.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/80x80.jpg",
               "width": 80,
               "height": 80
             }
           ],
-          "videoCover": [
+          "videoCover": []
+        },
+        "duration": 254,
+        "trackNumber": 8,
+        "volumeNumber": 1,
+        "isrc": "USSM12209522",
+        "copyright": "(P) 2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+        "mediaMetadata": {
+          "tags": ["DOLBY_ATMOS"]
+        },
+        "properties": {}
+      },
+      "id": "251380846",
+      "status": 200,
+      "message": "success"
+    },
+    {
+      "resource": {
+        "artifactType": "track",
+        "id": "251380847",
+        "title": "VIRGO'S GROOVE",
+        "artists": [
+          {
+            "id": "1566",
+            "name": "Beyoncé",
+            "picture": [
+              {
+                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/1024x256.jpg",
+                "width": 1024,
+                "height": 256
+              },
+              {
+                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/1080x720.jpg",
+                "width": 1080,
+                "height": 720
+              },
+              {
+                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/160x107.jpg",
+                "width": 160,
+                "height": 107
+              },
+              {
+                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/160x160.jpg",
+                "width": 160,
+                "height": 160
+              },
+              {
+                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/320x214.jpg",
+                "width": 320,
+                "height": 214
+              },
+              {
+                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/320x320.jpg",
+                "width": 320,
+                "height": 320
+              },
+              {
+                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/480x480.jpg",
+                "width": 480,
+                "height": 480
+              },
+              {
+                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/640x428.jpg",
+                "width": 640,
+                "height": 428
+              },
+              {
+                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/750x500.jpg",
+                "width": 750,
+                "height": 500
+              },
+              {
+                "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/750x750.jpg",
+                "width": 750,
+                "height": 750
+              }
+            ],
+            "main": true
+          }
+        ],
+        "album": {
+          "id": "251380836",
+          "title": "RENAISSANCE",
+          "imageCover": [
             {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1080x1080.mp4",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1080x1080.jpg",
               "width": 1080,
               "height": 1080
             },
             {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1280x1280.mp4",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1280x1280.jpg",
               "width": 1280,
               "height": 1280
             },
             {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/160x160.mp4",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/160x160.jpg",
               "width": 160,
               "height": 160
             },
             {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/320x320.mp4",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/320x320.jpg",
               "width": 320,
               "height": 320
             },
             {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/640x640.mp4",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/640x640.jpg",
               "width": 640,
               "height": 640
             },
             {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/750x750.mp4",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/750x750.jpg",
               "width": 750,
               "height": 750
             },
             {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/80x80.mp4",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/80x80.jpg",
               "width": 80,
               "height": 80
             }
-          ]
+          ],
+          "videoCover": []
         },
-        "duration": 79,
+        "duration": 369,
         "trackNumber": 9,
         "volumeNumber": 1,
-        "isrc": "USSM11603183",
-        "copyright": "(C) Parkwood Entertainment",
+        "isrc": "USSM12209523",
+        "copyright": "(P) 2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
         "mediaMetadata": {
-          "tags": ["LOSSLESS", "MQA"]
+          "tags": ["DOLBY_ATMOS"]
         },
-        "properties": {}
+        "properties": {
+          "content": ["explicit"]
+        }
       },
-      "id": "59727865",
+      "id": "251380847",
       "status": 200,
       "message": "success"
     },
     {
       "resource": {
         "artifactType": "track",
-        "id": "59727866",
-        "title": "FREEDOM",
+        "id": "251380849",
+        "title": "MOVE (feat. Grace Jones & Tems)",
         "artists": [
           {
             "id": "1566",
@@ -1649,56 +1213,113 @@
             "main": true
           },
           {
-            "id": "3816041",
-            "name": "Kendrick Lamar",
+            "id": "31917",
+            "name": "Grace Jones",
             "picture": [
               {
-                "url": "https://resources.tidal.com/images/f081ffab/8fba/4989/9043/9823518b6db3/1024x256.jpg",
+                "url": "https://resources.tidal.com/images/9899cd83/eeaf/49da/8beb/bc35d3b69003/1024x256.jpg",
                 "width": 1024,
                 "height": 256
               },
               {
-                "url": "https://resources.tidal.com/images/f081ffab/8fba/4989/9043/9823518b6db3/1080x720.jpg",
+                "url": "https://resources.tidal.com/images/9899cd83/eeaf/49da/8beb/bc35d3b69003/1080x720.jpg",
                 "width": 1080,
                 "height": 720
               },
               {
-                "url": "https://resources.tidal.com/images/f081ffab/8fba/4989/9043/9823518b6db3/160x107.jpg",
+                "url": "https://resources.tidal.com/images/9899cd83/eeaf/49da/8beb/bc35d3b69003/160x107.jpg",
                 "width": 160,
                 "height": 107
               },
               {
-                "url": "https://resources.tidal.com/images/f081ffab/8fba/4989/9043/9823518b6db3/160x160.jpg",
+                "url": "https://resources.tidal.com/images/9899cd83/eeaf/49da/8beb/bc35d3b69003/160x160.jpg",
                 "width": 160,
                 "height": 160
               },
               {
-                "url": "https://resources.tidal.com/images/f081ffab/8fba/4989/9043/9823518b6db3/320x214.jpg",
+                "url": "https://resources.tidal.com/images/9899cd83/eeaf/49da/8beb/bc35d3b69003/320x214.jpg",
                 "width": 320,
                 "height": 214
               },
               {
-                "url": "https://resources.tidal.com/images/f081ffab/8fba/4989/9043/9823518b6db3/320x320.jpg",
+                "url": "https://resources.tidal.com/images/9899cd83/eeaf/49da/8beb/bc35d3b69003/320x320.jpg",
                 "width": 320,
                 "height": 320
               },
               {
-                "url": "https://resources.tidal.com/images/f081ffab/8fba/4989/9043/9823518b6db3/480x480.jpg",
+                "url": "https://resources.tidal.com/images/9899cd83/eeaf/49da/8beb/bc35d3b69003/480x480.jpg",
                 "width": 480,
                 "height": 480
               },
               {
-                "url": "https://resources.tidal.com/images/f081ffab/8fba/4989/9043/9823518b6db3/640x428.jpg",
+                "url": "https://resources.tidal.com/images/9899cd83/eeaf/49da/8beb/bc35d3b69003/640x428.jpg",
                 "width": 640,
                 "height": 428
               },
               {
-                "url": "https://resources.tidal.com/images/f081ffab/8fba/4989/9043/9823518b6db3/750x500.jpg",
+                "url": "https://resources.tidal.com/images/9899cd83/eeaf/49da/8beb/bc35d3b69003/750x500.jpg",
                 "width": 750,
                 "height": 500
               },
               {
-                "url": "https://resources.tidal.com/images/f081ffab/8fba/4989/9043/9823518b6db3/750x750.jpg",
+                "url": "https://resources.tidal.com/images/9899cd83/eeaf/49da/8beb/bc35d3b69003/750x750.jpg",
+                "width": 750,
+                "height": 750
+              }
+            ],
+            "main": false
+          },
+          {
+            "id": "9357897",
+            "name": "Tems",
+            "picture": [
+              {
+                "url": "https://resources.tidal.com/images/3ce6c22f/f77b/4944/9f29/639a58d6ec5d/1024x256.jpg",
+                "width": 1024,
+                "height": 256
+              },
+              {
+                "url": "https://resources.tidal.com/images/3ce6c22f/f77b/4944/9f29/639a58d6ec5d/1080x720.jpg",
+                "width": 1080,
+                "height": 720
+              },
+              {
+                "url": "https://resources.tidal.com/images/3ce6c22f/f77b/4944/9f29/639a58d6ec5d/160x107.jpg",
+                "width": 160,
+                "height": 107
+              },
+              {
+                "url": "https://resources.tidal.com/images/3ce6c22f/f77b/4944/9f29/639a58d6ec5d/160x160.jpg",
+                "width": 160,
+                "height": 160
+              },
+              {
+                "url": "https://resources.tidal.com/images/3ce6c22f/f77b/4944/9f29/639a58d6ec5d/320x214.jpg",
+                "width": 320,
+                "height": 214
+              },
+              {
+                "url": "https://resources.tidal.com/images/3ce6c22f/f77b/4944/9f29/639a58d6ec5d/320x320.jpg",
+                "width": 320,
+                "height": 320
+              },
+              {
+                "url": "https://resources.tidal.com/images/3ce6c22f/f77b/4944/9f29/639a58d6ec5d/480x480.jpg",
+                "width": 480,
+                "height": 480
+              },
+              {
+                "url": "https://resources.tidal.com/images/3ce6c22f/f77b/4944/9f29/639a58d6ec5d/640x428.jpg",
+                "width": 640,
+                "height": 428
+              },
+              {
+                "url": "https://resources.tidal.com/images/3ce6c22f/f77b/4944/9f29/639a58d6ec5d/750x500.jpg",
+                "width": 750,
+                "height": 500
+              },
+              {
+                "url": "https://resources.tidal.com/images/3ce6c22f/f77b/4944/9f29/639a58d6ec5d/750x750.jpg",
                 "width": 750,
                 "height": 750
               }
@@ -1707,99 +1328,63 @@
           }
         ],
         "album": {
-          "id": "59727856",
-          "title": "LEMONADE",
+          "id": "251380836",
+          "title": "RENAISSANCE",
           "imageCover": [
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1080x1080.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1080x1080.jpg",
               "width": 1080,
               "height": 1080
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/1280x1280.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1280x1280.jpg",
               "width": 1280,
               "height": 1280
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/160x160.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/160x160.jpg",
               "width": 160,
               "height": 160
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/320x320.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/320x320.jpg",
               "width": 320,
               "height": 320
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/640x640.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/640x640.jpg",
               "width": 640,
               "height": 640
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/750x750.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/750x750.jpg",
               "width": 750,
               "height": 750
             },
             {
-              "url": "https://resources.tidal.com/images/2b3c28fe/bfb8/48b1/9ad7/f912847f3d71/80x80.jpg",
+              "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/80x80.jpg",
               "width": 80,
               "height": 80
             }
           ],
-          "videoCover": [
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1080x1080.mp4",
-              "width": 1080,
-              "height": 1080
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/1280x1280.mp4",
-              "width": 1280,
-              "height": 1280
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/160x160.mp4",
-              "width": 160,
-              "height": 160
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/320x320.mp4",
-              "width": 320,
-              "height": 320
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/640x640.mp4",
-              "width": 640,
-              "height": 640
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/750x750.mp4",
-              "width": 750,
-              "height": 750
-            },
-            {
-              "url": "https://resources.tidal.com/videos/0f00d544/9d83/4455/b728/fbecd82b1917/80x80.mp4",
-              "width": 80,
-              "height": 80
-            }
-          ]
+          "videoCover": []
         },
-        "duration": 290,
+        "duration": 203,
         "trackNumber": 10,
         "volumeNumber": 1,
-        "isrc": "USSM11603184",
-        "copyright": "(C) Parkwood Entertainment",
+        "isrc": "USSM12209524",
+        "copyright": "(P) 2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
         "mediaMetadata": {
-          "tags": ["LOSSLESS", "MQA"]
+          "tags": ["DOLBY_ATMOS"]
         },
         "properties": {}
       },
-      "id": "59727866",
+      "id": "251380849",
       "status": 200,
       "message": "success"
     }
   ],
   "metadata": {
-    "total": 12
+    "total": 16
   }
 }

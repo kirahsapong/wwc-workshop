@@ -1,41 +1,6 @@
 {
-  "protocol": "https://workshop.com/protocol",
-  "published": true,
-  "types": {
-    "playlist": {
-      "schema": "https://workshop.com/schema/playlist",
-      "dataFormats": ["application/json"]
-    },
-    "track": {
-      "schema": "https://workshop.com/schema/track",
-      "dataFormats": ["application/json"]
-    }
-  },
-  "structure": {
-    "playlist": {
-      "$actions": [
-        {
-          "who": "anyone",
-          "can": "write"
-        },
-        {
-          "who": "anyone",
-          "can": "read"
-        }
-      ],
-      "track": {
-        "$actions": [
-          {
-            "who": "author",
-            "of": "playlist",
-            "can": "write"
-          },
-          {
-            "who": "anyone",
-            "can": "read"
-          }
-        ]
-      }
-    }
-  }
+  "protocol": "",
+  "published": false,
+  "types": {},
+  "structure": {}
 }

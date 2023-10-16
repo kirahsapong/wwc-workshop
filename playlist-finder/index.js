@@ -1,6 +1,6 @@
 import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.8.1/dist/browser.mjs";
 
-const { web5, did } = await Web5.connect();
+const { web5 } = await Web5.connect();
 
 if (web5) {
   const loading = document.querySelector("#loading");
@@ -38,56 +38,70 @@ getFanPlaylistButton.onclick = async () => {
         from: fanDid.value,
         message: {
           filter: {
-            protocol: "https://workshop.com/protocol",
+            protocol: "https://example.com/protocol",
             protocolPath: "playlist",
           },
         },
       });
-      if (fanPlaylistRecords[0]) {
-        const { records: fanTracksRecords } = await web5.dwn.records.query({
-          from: fanDid.value,
-          message: {
-            filter: {
-              protocol: "https://workshop.com/protocol",
-              protocolPath: "playlist/track",
-              contextId: fanPlaylistRecords[0].contextId,
+      console.log(fanPlaylistRecords);
+      if (fanPlaylistRecords.length) {
+        for (const fanPlaylistRecord of fanPlaylistRecords) {
+          const { records: fanTracksRecords } = await web5.dwn.records.query({
+            from: fanDid.value,
+            message: {
+              filter: {
+                protocol: "https://example.com/protocol",
+                protocolPath: "playlist/track",
+                contextId: fanPlaylistRecord.contextId,
+              },
             },
-          },
-        });
-        if (!fanTracksRecords.length) {
-          fanDidError.textContent =
-            "This user hasn't added any tracks to their playlist. Try a different user.";
-        }
-        for (const fanTrackRecord of fanTracksRecords) {
-          const track = await fanTrackRecord.data.json();
-          const listItem = document.createElement("li");
-          const trackDetailAndImage = document.createElement("div");
-          const trackImage = document.createElement("img");
-          trackImage.setAttribute("src", track.imageCover);
-          trackImage.setAttribute("alt", track.imageAlt);
-          trackDetailAndImage.append(trackImage);
-          const trackDetail = document.createElement("div");
-          const trackTitle = document.createElement("h2");
-          trackTitle.textContent = track.title;
-          const trackAlbum = document.createElement("p");
-          trackAlbum.textContent = track.album;
-          const trackArtists = document.createElement("p");
-          trackArtists.textContent = track.artists;
-          const trackCopyright = document.createElement("p");
-          trackCopyright.textContent = track.copyright;
-          trackDetail.append(trackTitle);
-          trackDetail.append(trackAlbum);
-          trackDetail.append(trackArtists);
-          trackDetail.append(trackCopyright);
-          trackDetailAndImage.append(trackDetail);
-          const trackDuration = document.createElement("time");
-          trackDuration.setAttribute("datetime", `PT${track.duration}S`);
-          trackDuration.textContent = `${Math.floor(
-            track.duration / 60
-          )}:${String(track.duration % 60).padStart(2, "0")}`;
-          listItem.append(trackDetailAndImage);
-          listItem.append(trackDuration);
-          trackList.append(listItem);
+          });
+          if (!fanTracksRecords.length) {
+            fanDidError.textContent =
+              "This user hasn't added any tracks to their playlist. Try a different user.";
+          }
+          for (const fanTrackRecord of fanTracksRecords) {
+            const { track } = await fanTrackRecord.data.json();
+            const listItem = document.createElement("li");
+            const trackDetailAndImage = document.createElement("div");
+            const trackImage = document.createElement("img");
+            trackImage.setAttribute(
+              "src",
+              track.resource.album.imageCover[0].url
+            );
+            trackImage.setAttribute(
+              "alt",
+              `Album cover for ${track.resource.album.title}`
+            );
+            trackDetailAndImage.append(trackImage);
+            const trackDetail = document.createElement("div");
+            const trackTitle = document.createElement("h2");
+            trackTitle.textContent = track.resource.title;
+            const trackAlbum = document.createElement("p");
+            trackAlbum.textContent = track.resource.album.title;
+            const trackArtists = document.createElement("p");
+            trackArtists.textContent = track.resource.artists
+              .map((artist) => artist.name)
+              .join(", ");
+            const trackCopyright = document.createElement("p");
+            trackCopyright.textContent = track.resource.copyright;
+            trackDetail.append(trackTitle);
+            trackDetail.append(trackAlbum);
+            trackDetail.append(trackArtists);
+            trackDetail.append(trackCopyright);
+            trackDetailAndImage.append(trackDetail);
+            const trackDuration = document.createElement("time");
+            trackDuration.setAttribute(
+              "datetime",
+              `PT${track.resource.duration}S`
+            );
+            trackDuration.textContent = `${Math.floor(
+              track.resource.duration / 60
+            )}:${String(track.resource.duration % 60).padStart(2, "0")}`;
+            listItem.append(trackDetailAndImage);
+            listItem.append(trackDuration);
+            trackList.append(listItem);
+          }
         }
       }
     } catch {

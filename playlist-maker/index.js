@@ -1,4 +1,5 @@
 import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.8.1/dist/browser.mjs";
+import { API_KEY } from "./config.js";
 
 const { web5, did } = await Web5.connect();
 
@@ -7,7 +8,7 @@ if (web5) {
   document.body.removeChild(loading);
 }
 
-const playlistProtocolRes = await fetch("./playlistProtocol.json");
+const playlistProtocolRes = await fetch("./finals/playlistProtocol.json");
 const playlistProtocol = await playlistProtocolRes.json();
 
 const { protocols } = await web5.dwn.protocols.query({
@@ -55,20 +56,19 @@ let albumRes;
 let tracksRes;
 let resource;
 let albumTracks;
+
 try {
   const token = await fetch("https://auth.tidal.com/v1/oauth2/token", {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
-      Authorization:
-        "Basic eUZZeXVxd1dOVE10ZnQwZDpzamozbmlRZHhwTkRUSzNiZTB5Zjl4dVc0SXR6TjZzU2ZVS1hmM2JqWjNFPQ==",
+      Authorization: `Basic ${API_KEY}`,
     },
     body: new URLSearchParams({
       grant_type: "client_credentials",
     }),
   });
   const tokenJson = await token.json();
-  console.log(tokenJson);
 
   albumRes = await fetch(
     "https://openapi.tidal.com/albums/251380836?countryCode=US",
@@ -92,8 +92,8 @@ try {
     }
   );
 
-  ({ resource } = await albumRes.data.json());
-  ({ data: albumTracks } = await tracksRes.data.json());
+  ({ resource } = await albumRes.json());
+  ({ data: albumTracks } = await tracksRes.json());
 } catch {
   // throw new Error("error fetching album and track data ");
   albumRes = await fetch("./mockAlbum.json");
@@ -141,24 +141,16 @@ for (const track of albumTracks) {
   trackToggle.setAttribute("id", `trackName-${track.resource.id}`);
   for (const record of trackRecords) {
     const result = await record.data.json();
-    if (result.id === track.resource.id) {
+    if (result.track.resource.id === track.resource.id) {
       trackToggle.setAttribute("checked", "true");
+      trackToggle.setAttribute("data-record-id", record.id);
     }
   }
   trackToggle.onchange = async (e) => {
     if (e.target.checked) {
       const { record: trackRecord } = await web5.dwn.records.write({
         data: {
-          id: track.resource.id,
-          title: track.resource.title,
-          artists: track.resource.artists
-            .map((artist) => artist.name)
-            .join(", "),
-          album: track.resource.album.title,
-          duration: track.resource.duration,
-          copyright: track.resource.copyright,
-          imageCover: track.resource.album.imageCover[0].url,
-          imageAlt: `Album cover for ${track.resource.album.title}`,
+          track,
         },
         message: {
           protocol: playlistProtocol.protocol,
@@ -170,27 +162,23 @@ for (const track of albumTracks) {
         },
       });
       await trackRecord.send(did);
+      trackToggle.setAttribute("data-record-id", trackRecord.id);
     } else {
-      const { records: trackRecords } = await web5.dwn.records.query({
-        message: {
-          filter: {
-            protocol: playlistProtocol.protocol,
-            protocolPath: "playlist/track",
+      if (e.target.getAttribute("data-record-id")) {
+        console.log(e.target.getAttribute("data-record-id"));
+        const { status: localStatus } = await web5.dwn.records.delete({
+          message: {
+            recordId: e.target.getAttribute("data-record-id"),
           },
-        },
-      });
-      for (const record of trackRecords) {
-        const result = await record.data.json();
-        if (result.id === track.resource.id) {
-          const { status: localStatus } = await record.delete();
-          const { status: remoteStatus } = await web5.dwn.records.delete({
-            from: did,
-            message: {
-              recordId: record.id,
-            },
-          });
-          break;
-        }
+        });
+        const { status: remoteStatus } = await web5.dwn.records.delete({
+          from: did,
+          message: {
+            recordId: e.target.getAttribute("data-record-id"),
+          },
+        });
+        e.target.removeAttribute("data-record-id");
+        console.log(localStatus, remoteStatus);
       }
     }
   };
