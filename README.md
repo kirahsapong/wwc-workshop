@@ -54,12 +54,7 @@ echo -n "CLIENT_ID:CLIENT_SECRET" | base64
 Create a `config.js` file in your `playlist-maker` folder and add your API variables.
 
 ```
-export const config = {
-  CLIENT_ID: {TIDAL_API_CLIENT_ID_GOES_HERE},
-  CLIENT_SECRET: {TIDAL_API_CLIENT_SECRET_GOES_HERE},
-  API_KEY:
-    {YOUR_GENERATED_BASE64_KEY_GOES_HERE},
-};
+export const API_KEY = "{YOUR_GENERATED_BASE64_KEY_GOES_HERE}"
 
 ```
 
