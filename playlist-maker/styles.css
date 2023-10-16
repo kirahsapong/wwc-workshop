@@ -1,3 +1,7 @@
+:root {
+  --background: #ff5f00;
+}
+
 *,
 *::before,
 *::after {
@@ -15,7 +19,61 @@ html {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  font-family: sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  background: var(--background);
+}
+
+body.gradient {
+  background: linear-gradient(
+    231deg,
+    var(--background),
+    #d57c00,
+    #d54d00,
+    #f04100,
+    #ea6900,
+    #d54711,
+    #f57e09
+  );
+  background-size: 1200% 1200%;
+
+  -webkit-animation: PlaylistOrange 15s ease infinite;
+  -moz-animation: PlaylistOrange 15s ease infinite;
+  animation: PlaylistOrange 15s ease infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes PlaylistOrange {
+  0% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+  100% {
+    background-position: 0% 13%;
+  }
+}
+@-moz-keyframes PlaylistOrange {
+  0% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+  100% {
+    background-position: 0% 13%;
+  }
+}
+@keyframes PlaylistOrange {
+  0% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+  100% {
+    background-position: 0% 13%;
+  }
 }
 
 img,
@@ -37,6 +95,23 @@ select {
 
 button {
   cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: 4px solid black;
+  text-transform: uppercase;
+  letter-spacing: -0.05rem;
+  font-weight: 900;
+}
+
+button:hover,
+button:focus-visible {
+  background: black;
+  border-color: white;
+  color: white;
+}
+
+button:active {
+  opacity: 0.75;
 }
 
 p,
@@ -46,14 +121,31 @@ h3,
 h4,
 h5,
 h6 {
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
 p {
   margin-block: 1rem;
 }
 
-body > #loading {
+h1#heading {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -0.8rem;
+  margin-block: 8rem 4rem;
+}
+
+@media screen and (max-width: 425px) {
+  h1#heading {
+    font-size: 4rem;
+    letter-spacing: -0.4rem;
+  }
+}
+
+#loading {
+  top: 0;
   width: 100dvw;
   height: 100dvh;
   position: absolute;
@@ -62,29 +154,79 @@ body > #loading {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: white;
+  background: var(--background);
+  font-weight: 900;
+  letter-spacing: -0.05rem;
 }
 
-body > header,
-body > main {
+header {
+  text-align: center;
   max-width: 580px;
   margin: auto;
 }
 
-img#albumCover {
-  height: 150px;
-  width: 150px;
+header,
+main {
+  margin: 8rem auto;
+  padding-inline: 0.5rem;
 }
 
-main > .mainHeader {
-  display: flex;
+main {
+  border-top: 2px solid;
+  padding-top: 4rem;
+
+  & #mainHeader {
+    display: flex;
+
+    & img#albumCover {
+      height: 150px;
+      width: 150px;
+      max-width: 20dvw;
+      max-height: 20dvw;
+      margin-inline-end: 1rem;
+    }
+  }
+}
+
+header,
+#mainContent {
+  max-width: 580px;
+  margin: auto;
 }
 
 ul#trackList {
   padding-inline: 0;
-}
 
-ul#trackList > li {
-  display: flex;
-  justify-content: space-between;
+  & li {
+    display: contents;
+
+    & input[type="checkbox"] {
+      appearance: none;
+      display: contents;
+    }
+
+    & label {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      border: 1px solid;
+      border-radius: 1rem;
+      margin-block: 1rem;
+
+      & span {
+        font-weight: 900;
+      }
+
+      &:hover,
+      &:focus-visible {
+        cursor: pointer;
+      }
+    }
+
+    & input[type="checkbox"]:checked + label {
+      background: black;
+      color: white;
+      border-color: white;
+    }
+  }
 }
