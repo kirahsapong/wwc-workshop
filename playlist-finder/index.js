@@ -45,7 +45,7 @@ if (web5) {
           from: fanDid.value,
           message: {
             filter: {
-              protocol: "https://example.com/protocol/wwc-workshop",
+              protocol: "https://example.com/wwc-workshop/protocol",
               protocolPath: "playlist",
             },
           },
@@ -57,7 +57,7 @@ if (web5) {
               from: fanDid.value,
               message: {
                 filter: {
-                  protocol: "https://example.com/protocol/wwc-workshop",
+                  protocol: "https://example.com/wwc-workshop/protocol",
                   protocolPath: "playlist/track",
                   contextId: fanPlaylistRecord.contextId,
                 },

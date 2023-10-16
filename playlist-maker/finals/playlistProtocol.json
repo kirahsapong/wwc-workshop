@@ -1,13 +1,13 @@
 {
-  "protocol": "https://example.com/protocol/wwc-workshop",
+  "protocol": "https://example.com/wwc-workshop/protocol",
   "published": true,
   "types": {
     "playlist": {
-      "schema": "https://example.com/schema/playlist",
+      "schema": "https://example.com/wwc-workshop/schema/playlist",
       "dataFormats": ["application/json"]
     },
     "track": {
-      "schema": "https://example.com/schema/track",
+      "schema": "https://example.com/wwc-workshop/schema/track",
       "dataFormats": ["application/json"]
     }
   },
