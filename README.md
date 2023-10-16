@@ -41,6 +41,11 @@ $ npx http-server playlist-maker -o
 $ npx http-server playlist-finder -o
 ```
 
+3. The final deployed sites will be available at:
+
+- [Playlist maker](https://jocular-mermaid-c7ef5f.netlify.app/)
+- [Playlist finder](https://tangerine-gumption-382442.netlify.app/)
+
 ### Tidal API Beta
 
 To get started with your own Tidal API token, create an account in [Tidal's Developer Dashboard]() and make note of your Client ID and Client Secret.
