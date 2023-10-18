@@ -1,117 +1,64 @@
 {
   "resource": {
-    "id": "251380836",
-    "barcodeId": "196589525444",
-    "title": "RENAISSANCE",
+    "id": "300334014",
+    "barcodeId": "197877066335",
+    "title": "Burn",
     "artists": [
       {
-        "id": "1566",
-        "name": "Beyoncé",
-        "picture": [
-          {
-            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/1024x256.jpg",
-            "width": 1024,
-            "height": 256
-          },
-          {
-            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/1080x720.jpg",
-            "width": 1080,
-            "height": 720
-          },
-          {
-            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/160x107.jpg",
-            "width": 160,
-            "height": 107
-          },
-          {
-            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/160x160.jpg",
-            "width": 160,
-            "height": 160
-          },
-          {
-            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/320x214.jpg",
-            "width": 320,
-            "height": 214
-          },
-          {
-            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/320x320.jpg",
-            "width": 320,
-            "height": 320
-          },
-          {
-            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/480x480.jpg",
-            "width": 480,
-            "height": 480
-          },
-          {
-            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/640x428.jpg",
-            "width": 640,
-            "height": 428
-          },
-          {
-            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/750x500.jpg",
-            "width": 750,
-            "height": 500
-          },
-          {
-            "url": "https://resources.tidal.com/images/14416e8d/abae/4e90/9349/8efeb5c8d447/750x750.jpg",
-            "width": 750,
-            "height": 750
-          }
-        ],
+        "id": "4930687",
+        "name": "Synk",
+        "picture": [],
         "main": true
       }
     ],
-    "duration": 3740,
-    "releaseDate": "2022-07-29",
+    "duration": 700,
+    "releaseDate": "2023-06-16",
     "imageCover": [
       {
-        "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1080x1080.jpg",
+        "url": "https://resources.tidal.com/images/01e59756/ffbf/4375/97e3/83a5e8188118/1080x1080.jpg",
         "width": 1080,
         "height": 1080
       },
       {
-        "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/1280x1280.jpg",
+        "url": "https://resources.tidal.com/images/01e59756/ffbf/4375/97e3/83a5e8188118/1280x1280.jpg",
         "width": 1280,
         "height": 1280
       },
       {
-        "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/160x160.jpg",
+        "url": "https://resources.tidal.com/images/01e59756/ffbf/4375/97e3/83a5e8188118/160x160.jpg",
         "width": 160,
         "height": 160
       },
       {
-        "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/320x320.jpg",
+        "url": "https://resources.tidal.com/images/01e59756/ffbf/4375/97e3/83a5e8188118/320x320.jpg",
         "width": 320,
         "height": 320
       },
       {
-        "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/640x640.jpg",
+        "url": "https://resources.tidal.com/images/01e59756/ffbf/4375/97e3/83a5e8188118/640x640.jpg",
         "width": 640,
         "height": 640
       },
       {
-        "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/750x750.jpg",
+        "url": "https://resources.tidal.com/images/01e59756/ffbf/4375/97e3/83a5e8188118/750x750.jpg",
         "width": 750,
         "height": 750
       },
       {
-        "url": "https://resources.tidal.com/images/d3c4372b/a652/40e0/bdb1/fc8d032708f6/80x80.jpg",
+        "url": "https://resources.tidal.com/images/01e59756/ffbf/4375/97e3/83a5e8188118/80x80.jpg",
         "width": 80,
         "height": 80
       }
     ],
     "videoCover": [],
     "numberOfVolumes": 1,
-    "numberOfTracks": 16,
+    "numberOfTracks": 10,
     "numberOfVideos": 0,
     "type": "ALBUM",
-    "copyright": "(P) 2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+    "copyright": "Sony",
     "mediaMetadata": {
-      "tags": ["DOLBY_ATMOS"]
+      "tags": ["LOSSLESS"]
     },
-    "properties": {
-      "content": ["explicit"]
-    }
+    "properties": {}
   }
 }

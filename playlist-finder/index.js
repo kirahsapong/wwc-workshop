@@ -67,6 +67,7 @@ if (web5) {
               fanDidError.textContent =
                 "This user hasn't added any tracks to their playlist. Try a different user.";
             }
+            // Render each track
             for (const fanTrackRecord of fanTracksRecords) {
               const { track } = await fanTrackRecord.data.json();
               const listItem = document.createElement("li");

@@ -77,7 +77,7 @@ if (web5) {
       const tokenJson = await token.json();
 
       albumRes = await fetch(
-        "https://openapi.tidal.com/albums/251380836?countryCode=US",
+        "https://openapi.tidal.com/albums/300334014?countryCode=US",
         {
           headers: {
             accept: "application/vnd.tidal.v1+json",
@@ -88,7 +88,7 @@ if (web5) {
       );
 
       tracksRes = await fetch(
-        "https://openapi.tidal.com/albums/251380836/items?countryCode=US",
+        "https://openapi.tidal.com/albums/300334014/items?countryCode=US",
         {
           headers: {
             accept: "application/vnd.tidal.v1+json",
