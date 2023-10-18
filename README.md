@@ -48,7 +48,7 @@ $ npx http-server playlist-finder -o -c-1
 
 ### Tidal API Beta
 
-To get started with your own Tidal API token, create an account in [Tidal's Developer Dashboard](https://developer.tidal.com/dashboard) and make note of your **Client ID** and **Client Secret**. If you run into any issues, have any questions, or just want to say "Hi!", you can go to [Tidal's Community Discussion Forum](https://github.com/orgs/tidal-music/discussions).
+To get started with your own Tidal API token, create an account in [Tidal's Developer Dashboard](https://developer.tidal.com/dashboard) and then create a new app. You will want to make note of your **Client ID** and **Client Secret**. If you run into any issues, have any questions, or just want to say "Hi!", you can go to [Tidal's Community Discussion Forum](https://github.com/orgs/tidal-music/discussions).
 
 In your terminal, generate a base64 API key:
 
