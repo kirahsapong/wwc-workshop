@@ -1,4 +1,4 @@
-import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.8.1/dist/browser.mjs";
+import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.9.2/dist/browser.mjs";
 import { API_KEY } from "./config.js";
 
 const loading = document.querySelector("#loading");
@@ -146,7 +146,8 @@ if (web5) {
       // Add tracks to user's playlist when track is checked
       trackToggle.onchange = async (e) => {
         if (e.target.checked) {
-          const { record: trackRecord } = await web5.dwn.records.write({
+          console.log(playlistRecord, playlistRecord.contextId, playlistRecord.id)
+          const { record: trackRecord, status } = await web5.dwn.records.write({
             data: {
               track,
             },
@@ -154,11 +155,12 @@ if (web5) {
               protocol: playlistProtocol.protocol,
               protocolPath: "playlist/track",
               contextId: playlistRecord.contextId,
-              parentId: playlistRecord.contextId,
+              parentContextId: playlistRecord.id,
               schema: playlistProtocol.types.track.schema,
               published: true,
             },
           });
+          console.log(trackRecord, status)
           await trackRecord.send(did);
           trackToggle.setAttribute("checked", "true");
           trackToggle.setAttribute("data-record-id", trackRecord.id);
@@ -201,11 +203,13 @@ if (web5) {
     document.body.removeChild(loading);
     document.body.classList.add("gradient");
     content.style.display = "contents";
-  } catch {
+  } catch (e) {
     // If tracks fail to load, inform the user
     loading.textContent = "Error loading tracks";
+    throw Error(e)
   }
 } else {
   // If web5 fails to load, inform the user
   loading.textContent = "Error loading Web5";
+  throw Error("Error loading Web5")
 }

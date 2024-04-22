@@ -16,11 +16,7 @@
       "$actions": [
         {
           "who": "anyone",
-          "can": "write"
-        },
-        {
-          "who": "anyone",
-          "can": "read"
+          "can": ["create", "read"]
         }
       ],
       "track": {
@@ -28,11 +24,11 @@
           {
             "who": "author",
             "of": "playlist",
-            "can": "write"
+            "can": ["create"]
           },
           {
             "who": "anyone",
-            "can": "read"
+            "can": ["read"]
           }
         ]
       }

@@ -1,4 +1,4 @@
-import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.8.1/dist/browser.mjs";
+import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.9.2/dist/browser.mjs";
 
 const loading = document.querySelector("#loading");
 const fanDid = document.querySelector("#fanDid");
