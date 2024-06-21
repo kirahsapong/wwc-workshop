@@ -1,4 +1,4 @@
-import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.9.2/dist/browser.mjs";
+import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.9.4/dist/browser.mjs";
 import { API_KEY } from "./config.js";
 
 const loading = document.querySelector("#loading");
@@ -12,7 +12,7 @@ const trackList = document.querySelector("#trackList");
 const { web5, did } = await Web5.connect();
 
 if (web5) {
-  // Change loading text on succesful load of web5;
+  // Change loading text on successful load of web5;
   loading.textContent = "Loading tracks...";
   try {
     // Check if protocol exists in user's DWN, otherwise install it
